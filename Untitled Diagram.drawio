@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T13:28:31.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ZvH88MmW9YZqWFEDvK8G" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T13:31:19.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="z8fyW0Hxzeo-lv3KFhpJ" version="16.4.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1894" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1769" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="-7.5" y="-20" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kfwp7QfQCUSDTevISf6e-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kfwp7QfQCUSDTevISf6e-1">
-          <mxGeometry x="22.5" y="70" width="10" height="220" as="geometry" />
+          <mxGeometry x="22.5" y="70" width="10" height="250" as="geometry" />
         </mxCell>
         <mxCell id="kfwp7QfQCUSDTevISf6e-3" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-900" y="180" width="100" height="330" as="geometry" />
@@ -28,35 +28,10 @@
         <mxCell id="kfwp7QfQCUSDTevISf6e-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kfwp7QfQCUSDTevISf6e-3">
           <mxGeometry x="45" y="140" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kfwp7QfQCUSDTevISf6e-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.053;exitY=0.455;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kfwp7QfQCUSDTevISf6e-3" source="kfwp7QfQCUSDTevISf6e-8">
+        <mxCell id="kfwp7QfQCUSDTevISf6e-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.043;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kfwp7QfQCUSDTevISf6e-3" source="kfwp7QfQCUSDTevISf6e-27">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="160" as="sourcePoint" />
             <mxPoint x="45" y="160" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kfwp7QfQCUSDTevISf6e-53" value="" style="group" vertex="1" connectable="0" parent="kfwp7QfQCUSDTevISf6e-3">
-          <mxGeometry x="55" y="180" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="kfwp7QfQCUSDTevISf6e-51" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;endArrow=none;endFill=0;" edge="1" parent="kfwp7QfQCUSDTevISf6e-53">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="30" as="targetPoint" />
-            <mxPoint x="0.5" y="15" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="33.33333333333333" y="15" />
-              <mxPoint x="26.666666666666664" y="22.5" />
-              <mxPoint x="26.666666666666664" y="15" />
-              <mxPoint x="26.666666666666664" y="10" />
-              <mxPoint x="33.33333333333333" />
-              <mxPoint x="40" y="5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kfwp7QfQCUSDTevISf6e-52" value="計算手續費" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;strokeColor=default;elbow=vertical;" edge="1" parent="kfwp7QfQCUSDTevISf6e-53">
-          <mxGeometry x="-1" y="31" relative="1" as="geometry">
-            <mxPoint x="40" y="30" as="sourcePoint" />
-            <mxPoint y="30" as="targetPoint" />
-            <mxPoint x="31" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kfwp7QfQCUSDTevISf6e-55" value="回傳手續費" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.98;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kfwp7QfQCUSDTevISf6e-3">
@@ -153,10 +128,10 @@
         <mxCell id="kfwp7QfQCUSDTevISf6e-21" value="findByIrNo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-705" y="240" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kfwp7QfQCUSDTevISf6e-24" value="回傳匯款資訊&lt;br&gt;(ir_Dto)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.98;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kfwp7QfQCUSDTevISf6e-8">
+        <mxCell id="kfwp7QfQCUSDTevISf6e-24" value="回傳匯款資訊&lt;br&gt;(ir_Dto)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0112" y="36" relative="1" as="geometry">
             <mxPoint x="-855" y="270" as="sourcePoint" />
-            <mxPoint x="-935" y="270" as="targetPoint" />
+            <mxPoint x="-970" y="270" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -194,6 +169,54 @@
             <mxPoint x="-611.44" y="350.00000000000006" as="sourcePoint" />
             <mxPoint x="-715" y="350.26000000000005" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-835" y="370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-57" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;endArrow=none;endFill=0;" edge="1" parent="kfwp7QfQCUSDTevISf6e-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="30" as="targetPoint" />
+            <mxPoint x="0.5" y="15" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="33.33333333333333" y="15" />
+              <mxPoint x="26.666666666666664" y="22.5" />
+              <mxPoint x="26.666666666666664" y="15" />
+              <mxPoint x="26.666666666666664" y="10" />
+              <mxPoint x="33.33333333333333" />
+              <mxPoint x="40" y="5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-58" value="計算手續費" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;strokeColor=default;elbow=vertical;" edge="1" parent="kfwp7QfQCUSDTevISf6e-56">
+          <mxGeometry x="-1" y="31" relative="1" as="geometry">
+            <mxPoint x="40" y="30" as="sourcePoint" />
+            <mxPoint y="30" as="targetPoint" />
+            <mxPoint x="31" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-970" y="398" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-51" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;endArrow=none;endFill=0;" edge="1" parent="kfwp7QfQCUSDTevISf6e-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="42" as="targetPoint" />
+            <mxPoint x="0.5" y="21" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="33.33333333333333" y="21" />
+              <mxPoint x="26.666666666666664" y="31.499999999999996" />
+              <mxPoint x="26.666666666666664" y="21" />
+              <mxPoint x="26.666666666666664" y="14" />
+              <mxPoint x="33.33333333333333" />
+              <mxPoint x="40" y="7" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-52" value="計算交易金額&lt;br&gt;(手續費內扣)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;strokeColor=default;elbow=vertical;" edge="1" parent="kfwp7QfQCUSDTevISf6e-53">
+          <mxGeometry x="-1" y="39" relative="1" as="geometry">
+            <mxPoint x="40" y="42" as="sourcePoint" />
+            <mxPoint y="42" as="targetPoint" />
+            <mxPoint x="38" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
