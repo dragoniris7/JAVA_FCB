@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T12:59:21.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="WFePya8kyvi8O5ytxfrx" version="16.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T13:02:11.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="c1uCWDdTpZGgdY1Zvp7C" version="16.4.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2039" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1666" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,6 +37,9 @@
         <mxCell id="kfwp7QfQCUSDTevISf6e-5" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="kfwp7QfQCUSDTevISf6e-7">
           <mxGeometry x="5" y="20" width="60" height="380" as="geometry" />
         </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kfwp7QfQCUSDTevISf6e-5">
+          <mxGeometry x="25" y="68" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="kfwp7QfQCUSDTevISf6e-6" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="kfwp7QfQCUSDTevISf6e-7">
           <mxGeometry width="70" height="70" as="geometry" />
         </mxCell>
@@ -45,6 +48,30 @@
         </mxCell>
         <mxCell id="kfwp7QfQCUSDTevISf6e-10" value="輸入匯款編號(irNo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1080" y="260" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kfwp7QfQCUSDTevISf6e-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-855" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-855" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-17" value="查詢匯款資訊" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.1;entryY=0.214;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-845" y="259.9985714285714" as="sourcePoint" />
+            <mxPoint x="-726" y="260.09000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-810" y="259.97" />
+              <mxPoint x="-810" y="259.97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kfwp7QfQCUSDTevISf6e-19" value="傳入匯款編號(irNo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="240" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
